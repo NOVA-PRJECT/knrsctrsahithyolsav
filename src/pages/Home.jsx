@@ -12,7 +12,7 @@ const Home = () => {
         {/* Hero Section */}
         <div className="home-hero" style={{
           position: 'relative',
-          width: '100%',
+          width: '100vw',
           minHeight: '100vh',
           display: 'flex',
           flexDirection: 'column',
