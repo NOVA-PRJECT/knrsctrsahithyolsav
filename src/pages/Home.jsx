@@ -12,12 +12,13 @@ const Home = () => {
         {/* Hero Section */}
         <div className="home-hero" style={{
           position: 'relative',
-          width: '100vw',
+          width: '100%',
           minHeight: '100vh',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'flex-end',
-          paddingBottom: '100px'
+          paddingBottom: '100px',
+          overflow: 'hidden'
         }}>
           {/* Background Image / Poster */}
           <div className="home-poster-bg" style={{
